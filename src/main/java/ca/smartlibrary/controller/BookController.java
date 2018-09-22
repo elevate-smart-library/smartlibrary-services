@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-//@Secured({ScopeAuthority.LIBRARY_VALUE})
+//@Secured({ScopeAuthority.LIBRARY_VALUE}) // TODO: 2018-09-22 enable
 @RequestMapping("/api/v1/books")
 @Api(tags = {"Book"}, description = "Book search")
 public class BookController {
