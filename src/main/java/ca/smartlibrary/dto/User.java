@@ -25,6 +25,7 @@ public class User implements Cloneable {
     private String firstName;
     private String lastName;
     private Instant birthDate;
+    private Gender gender;
 
     private String phoneNumber;
     private List<Location> locations;

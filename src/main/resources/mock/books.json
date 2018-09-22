@@ -1,0 +1,53 @@
+[
+  {
+    "id": "1111",
+    "isbn": "978-3-16-148410-1",
+    "title": "The Golden State",
+    "synopsis": "",
+    "pictureUrl": "https://syndetics.com/index.aspx?isbn=0374164835/LC.gif",
+    "author": "Lydia Kiesling",
+    "narrator": "Jeanette Silva",
+    "publisher": "TPublish Inc.",
+    "publishedDate": "2018-01-01T00:00:00Z",
+    "format": "PHYSICAL",
+    "pages": 232,
+    "averageReadingTime": "P23D",
+    "library": {},
+    "reviews": [],
+    "tags": []
+  },
+  {
+    "id": "2222",
+    "isbn": "978-3-16-148410-2",
+    "title": "Daughter of a daughter of a Queen",
+    "synopsis": "",
+    "pictureUrl": "https://syndetics.com/index.aspx?isbn=1250193168/LC.gif",
+    "author": "Sarah Bird",
+    "narrator": null,
+    "publisher": "TPublish Inc.",
+    "publishedDate": "2012-01-01T00:00:00Z",
+    "format": "PHYSICAL",
+    "pages": 398,
+    "averageReadingTime": "P34D",
+    "library": {},
+    "reviews": [],
+    "tags": []
+  },
+  {
+    "id": "3333",
+    "isbn": "978-3-16-148410-3",
+    "title": "Splitsville",
+    "synopsis": "",
+    "pictureUrl": "https://syndetics.com/index.aspx?isbn=9781552453735/LC.gif",
+    "author": "Howard Akler",
+    "narrator": null,
+    "publisher": "TPublish Inc.",
+    "publishedDate": "2017-01-01T00:00:00Z",
+    "format": "EBOOK",
+    "pages": 160,
+    "averageReadingTime": "P10D",
+    "library": null,
+    "reviews": [],
+    "tags": []
+  }
+]

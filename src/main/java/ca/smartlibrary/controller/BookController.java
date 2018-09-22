@@ -2,17 +2,15 @@ package ca.smartlibrary.controller;
 
 import ca.smartlibrary.dto.book.Book;
 import ca.smartlibrary.dto.book.BookRegistration;
-import ca.smartlibrary.security.ScopeAuthority;
 import ca.smartlibrary.service.book.BookService;
 import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.access.annotation.Secured;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
-@Secured({ScopeAuthority.LIBRARY_VALUE})
+//@Secured({ScopeAuthority.LIBRARY_VALUE})
 @RequestMapping("/api/v1/books")
 @Api(tags = {"Book"}, description = "Book search")
 public class BookController {

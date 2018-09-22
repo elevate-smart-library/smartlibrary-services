@@ -1,0 +1,98 @@
+[
+  {
+    "id": "1111",
+    "name": "Patricia Broadbent #779 Toronto ON",
+    "contacts": [
+      {
+        "id": 1111
+      }
+    ],
+    "type": "HOME",
+    "location": {
+      "address": "98 Swanwick Ave, Toronto, ON M4E 1Z9",
+      "lat": 43.68311,
+      "lng": -79.29607,
+      "tag": "home"
+    }
+  },
+  {
+    "id": "2222",
+    "name": "Clancy P. #21870 Toronto ON",
+    "contacts": [
+      {
+        "id": 2222
+      }
+    ],
+    "type": "HOME",
+    "location": {
+      "address": "1 Parr St, Toronto, ON M6J 2E2",
+      "lat": 43.65122,
+      "lng": -79.43113,
+      "tag": "home"
+    }
+  },
+  {
+    "id": "3333",
+    "name": "Shelley Henderson-Whale #44975 Toronto ON",
+    "contacts": [
+      {
+        "id": 3333
+      }
+    ],
+    "type": "HOME",
+    "location": {
+      "address": "53 Lavinia Ave, Toronto, ON M6S 3H9",
+      "lat": 43.6461694,
+      "lng": -79.4795851,
+      "tag": "home"
+    }
+  },
+  {
+    "id": "4444",
+    "name": "Toronto Public Library - Lillian H. Smith Library",
+    "contacts": [
+      {
+        "id": 3333
+      }
+    ],
+    "type": "PUBLIC",
+    "location": {
+      "address": "239 College St, Toronto, ON M5T 1R5",
+      "lat": 43.6590579,
+      "lng": -79.3973291,
+      "tag": "home"
+    }
+  },
+  {
+    "id": "5555",
+    "name": "Engineering & Computer Science Library",
+    "contacts": [
+      {
+        "id": 3333
+      }
+    ],
+    "type": "PUBLIC",
+    "location": {
+      "address": "10 King's College Rd, Toronto, ON M5S 3G8",
+      "lat": 43.6600106,
+      "lng": -79.3970232,
+      "tag": "home"
+    }
+  },
+  {
+    "id": "6666",
+    "name": "Hart House Library",
+    "contacts": [
+      {
+        "id": 3333
+      }
+    ],
+    "type": "PUBLIC",
+    "location": {
+      "address": "2 Floor, 7 Hart House Cir, Toronto, ON M5S 3H3",
+      "lat": 43.6639483,
+      "lng": -79.3963292,
+      "tag": "home"
+    }
+  }
+]

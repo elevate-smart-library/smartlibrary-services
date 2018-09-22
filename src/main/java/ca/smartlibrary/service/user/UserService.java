@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface UserService {
 
-    User findOne(String pcId) ;
+    User findOne(String id);
 
     User update(User source);
 

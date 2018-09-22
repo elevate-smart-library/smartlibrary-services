@@ -9,7 +9,6 @@ import org.aopalliance.intercept.MethodInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.access.AccessDecisionManager;
 import org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor;
@@ -58,7 +57,7 @@ public class SecurityConfiguration {
         ((AbstractAccessDecisionManager) decisionManager).getDecisionVoters().add(new ScopeVoter());
     }
 
-    @Bean
+    //    @Bean // TODO: 2018-09-22
     public FilterChainProxy configureAccessFilters() {
         return new FilterChainProxy(Arrays.asList(
                 new DefaultSecurityFilterChain(new RegexRequestMatcher("/api/v\\d/auth/.*", null)),

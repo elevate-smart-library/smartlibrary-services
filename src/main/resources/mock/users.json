@@ -1,0 +1,69 @@
+[
+  {
+    "id": 1111,
+    "email": "patriciabroadbent@gmail.com",
+    "firstName": "Patricia",
+    "lastName": "Broadbent",
+    "birthDate": "1990-01-01T00:00:00.000Z",
+    "gender": "FEMALE",
+    "phoneNumber": "4168009000",
+    "location": [
+      {
+        "address": "98 Swanwick Ave, Toronto, ON M4E 1Z9",
+        "lat": 43.68311,
+        "lng": -79.29607,
+        "tag": "home"
+      }
+    ],
+    "language": {
+      "code": "en_CA",
+      "label": "English"
+    }
+  },
+  {
+    "id": 2222,
+    "email": "cpryde2@yahoo.com",
+    "firstName": "Clancy",
+    "lastName": "Pryde",
+    "birthDate": "1990-01-01T00:00:00.000Z",
+    "phoneNumber": "4168009000",
+    "location": [
+      {
+        "address": "1 Parr St, Toronto, ON M6J 2E2",
+        "lat": 43.68311,
+        "lng": -79.29607,
+        "tag": "home"
+      },
+      {
+        "address": "473 Adelaide St W, Toronto, ON M5V 1T1",
+        "lat": 43.6457079,
+        "lng": -79.4021933,
+        "tag": "work"
+      }
+    ],
+    "language": {
+      "code": "fr_CA",
+      "label": "Français"
+    }
+  },
+  {
+    "id": 3333,
+    "email": "shendersonwhale@gmail.com",
+    "firstName": "Shelley",
+    "lastName": "Henderson-Whale",
+    "birthDate": "1990-01-01T00:00:00.000Z",
+    "phoneNumber": "4168009000",
+    "location": [
+      {
+        "address": "53 Lavinia Ave, Toronto, ON M6S 3H9",
+        "lat": 43.64619,
+        "lng": -79.4772,
+        "tag": "home"
+      }
+    ],
+    "language": {
+      "code": "fr_CA",
+      "label": "Français"
+    }
+  }
+]
