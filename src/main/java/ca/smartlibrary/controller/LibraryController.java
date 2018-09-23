@@ -5,8 +5,8 @@ import ca.smartlibrary.service.library.LibraryService;
 import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
@@ -26,6 +26,11 @@ public class LibraryController {
     @GetMapping
     private List<Library> findAll(BasicRequestParamFilter filter){
         return libraryService.findAll(filter);
+    }
+
+    @GetMapping("/{id}")
+    private Library findOne(@RequestParam String id) {
+        return libraryService.findOne(id);
     }
 
 }

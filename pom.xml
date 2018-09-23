@@ -8,7 +8,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
 
-    <name>smartlibrary-services</name>
+    <name>Toronto Smart Library (TSL)</name>
     <description>Smart Library for Elevate Hackaton 2018</description>
 
     <parent>
@@ -20,6 +20,7 @@
 
     <properties>
         <application-name>${name}</application-name>
+        <application-version>${version}</application-version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>

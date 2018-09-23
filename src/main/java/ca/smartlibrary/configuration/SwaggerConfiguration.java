@@ -1,8 +1,8 @@
 package ca.smartlibrary.configuration;
 
-import com.fasterxml.classmate.TypeResolver;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.ClassPathResource;
@@ -35,14 +35,16 @@ import static springfox.documentation.builders.PathSelectors.regex;
 @EnableSwagger2
 public class SwaggerConfiguration {
 
-    @Autowired
-    private TokenConfiguration tokenConfiguration;
+    private final TokenConfiguration tokenConfiguration;
+    @Value("${spring.application.name}")
+    private String applicationName;
+    @Value("${spring.application.version}")
+    private String applicationVersion;
 
     @Autowired
-    private SecurityConfiguration securityConfiguration;
-
-    @Autowired
-    private TypeResolver typeResolver;
+    public SwaggerConfiguration(TokenConfiguration tokenConfiguration) {
+        this.tokenConfiguration = tokenConfiguration;
+    }
 
     @Bean
     public Docket docket() {
@@ -84,9 +86,9 @@ public class SwaggerConfiguration {
             LOG.error(e.getMessage(), e);
         }
         return new ApiInfoBuilder()
-                .title("Little Library API")
+                .title(applicationName)
                 .description(description)
-                .version("1.0")
+                .version(applicationVersion)
                 .build();
     }
 }

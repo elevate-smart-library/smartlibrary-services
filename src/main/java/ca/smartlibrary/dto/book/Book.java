@@ -27,6 +27,7 @@ public class Book {
     private Library library;
     private List<Review> reviews;
     private List<String> tags;
+    private List<Book> similar;
 
 
     public enum BookCategory {

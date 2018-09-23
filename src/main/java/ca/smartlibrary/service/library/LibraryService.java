@@ -8,4 +8,6 @@ import java.util.List;
 public interface LibraryService {
 
     List<Library> findAll(BasicRequestParamFilter filter);
+
+    Library findOne(String id);
 }

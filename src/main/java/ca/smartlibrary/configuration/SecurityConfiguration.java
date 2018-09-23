@@ -72,6 +72,8 @@ public class SecurityConfiguration {
         protected void configure(HttpSecurity httpSecurity) throws Exception {
             httpSecurity
                     .csrf().disable()
+                    .cors().disable()
+//                    .cors().configurationSource(new UrlBasedCorsConfigurationSource()).and()
                     .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
         }
     }
